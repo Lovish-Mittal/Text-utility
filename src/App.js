@@ -24,10 +24,10 @@ function App() {
     <>
     
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}aboutText="About"/>
-    <Alerts alert='This is alert'/>
+    {/*<Alerts alert='This is alert'/>*/}
     <div className="container my-3">
      <TextForm heading="Enter the text to analyse" mode={mode}/>
-    <About/>
+       {/*<About/>*/}
     </div>
     
     </>
